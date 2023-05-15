@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Sigmar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.box{
+    background: orangered;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    /*border: 10px dashed brown;*/
+/*border-width: 20px;
+border-style: groove dashed ;
+border-color: brown steelblue;*/
+/*border-top: 10px solid brown;
+border-right: 5px dashed white ;
+border-left: 8px double black;
+border-bottom: 8px dotted steelblue;*/
+border-top-width: 20px;
+border-top-style: double;
+border-top-color: crimson;
+
+border-right-width: 30px;
+border-right-style: dashed;
+border-right-color: white;
+
+border-bottom-width: 25px;
+border-bottom-style: solid;
+border-bottom-color: steelblue;
+
+border-left-width: 15px;
+border-left-style: dotted;
+border-left-color: violet;
+
+}
+
+.card{
+    width: 400px;
+    margin: 20px auto;
+    height: auto;
+    padding: 20px 0;
+    border: 2px solid #0000ff;
+    font-family: 'Alkatra', cursive;
+    font-size: 2rem;
+
+    box-shadow: 0 20px 40px 2px #0000ff;
+    text-shadow: 0 0 20px #0000ff;
+    background: #2b2d42;
+   
+}
+
+.img{
+    display: block;
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 40px auto;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 40px #e60012);
+    -webkit-filter: drop-shadow(0 0 40px #e60012);
+}
+
+.cta{
+    display: block;
+    background: crimson;
+    width: 150px;
+    border-radius: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    margin: 20px auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.name{
+    text-align: center;
+}
